@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../02_CSS/02_formulaire_correction.css">
+    <title>Formulaire Correction</title>
+
+</head>
+
+<body>
+<form>
+     <p>   
+            <label for="pseudo">Pseudo</label>
+            <input type="text" placeholder="Taper votre pseudo" required> 
+    </p> 
+
+     <p>   
+            <label for="Mot de passe">Mot de passe</label>
+            <input type="password" placeholder="Mot de passe" required> 
+    </p> 
+
+    <p>   
+            <label for="Email">Email</label>
+            <input type="email" required placeholder="Email__@__.__" required> 
+    </p> 
+
+    <p>   
+            <label for="Photo">Photo</label>
+            <input type="file">
+    </p>
+
+            <!-- Cases à cocher -->
+            <label for="question">Quelle destination choisissez-vous ?</label> 
+    <p> 
+            <input type="checkbox">Chine
+            <!-- Avec checked on coche une case par défaut -->
+            <input type="checkbox">Australie
+            <input type="checkbox">Mars 
+    </p>
+
+    <p> 
+            <input type="radio" name="question" value="Chine">Chine
+            <input type="radio" name="question" value="Astralie" checked>Australie
+            <input type="radio" name="question" value="Mars">Mars 
+    </p> 
+
+    <P>
+            <label for="comment">Commentaire</label>
+            <textarea name="comment" id="comment" cols="90" rows="10"></textarea>
+            <!-- rows=nombre de lignes
+            cols=nombre de colonnes/caractères. --> 
+    </P> 
+
+    <p> 
+            <!-- Bouyton envoie formulaire -->
+            <input type="submit" value="Envoyer"> 
+            <!-- Bouton pour vider le formulaire -->
+            <input type="reset" value="annuler">
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+
+</html>

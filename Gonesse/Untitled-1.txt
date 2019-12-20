@@ -1,0 +1,20 @@
+* 
+{
+    font-family: sans-serif;
+    /* police d'écriture */
+}
+
+nav 
+{
+    background: #000000;
+    color: #fff;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    /* position à partir  du haut de l'écran */
+    left: 0;
+    /* position à partir de la gauche de l'écran */
+    margin: 0;
+}

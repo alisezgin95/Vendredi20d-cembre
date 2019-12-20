@@ -1,0 +1,99 @@
+body 
+{
+    background: #f5deb3;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* ceci est un commentaire en CSS */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{ 
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+/* Cible tous les éléments ayant la classe "titre" */
+.titre 
+{
+    color: red;
+}
+p.titre 
+{
+    color: pink;
+}
+
+/* Un selecteur d'identifiant (ID selector) permet pour un document html, de cibler un élément grâce à la valeur de son attribut id */
+
+* 
+{ 
+    text-align: right; 
+}
+
+Header 
+{
+    background-color: #900c3f;
+    color: #fff;
+    height: 100px;
+}
+
+nav 
+{
+    background-color: #daf7a6;
+    height: 60px;
+}
+
+section 
+{
+    background: navy;
+    height: 550px;
+}
+
+article 
+{
+    background-color: #ff5733;
+    height: 66px;
+}
+
+footer 
+{
+    background-color: #daf7a6;
+    height: 75px;
+}
+
+nav,
+footer 
+{
+    color: #a93226;
+}
+
+.taille 
+{
+    width: 130px;
+    background: red;
+}
+
+#changement 
+{
+    width: 100px;
+    background: #000000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+body 
+{
+    width: 50%;
+    margin: 10% 70% 50% 30%;
+}
+
+table 
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+thead
+{
+    background-color: white;
+    border: 2px solid black;
+}
+
+tbody 
+{
+    border: 2px dotted #6a5acd;
+}
+
+th 
+{
+    border: 2px solid black;
+    background-color: white;
+}
+
+td 
+{
+    border: 2px solid;
+    padding: 10px;
+}
